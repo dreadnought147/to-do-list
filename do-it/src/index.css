@@ -1,0 +1,89 @@
+
+body{
+  background-color: rgba(0,0,0,0.90);
+}
+.to-do{
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+  color: white;
+
+}
+
+h1{
+  font-size: 10px;
+  text-align: center;
+  
+}
+button{
+  font-size: 1px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+ transition: background-color 0.54s ease; 
+}
+.add-button{
+  background-color: rgb(255, 186, 57,0.85);
+}
+.add-button:hover{
+  background-color: rgb(255, 186, 57,1);
+}
+
+.del-but{
+  background-color: rgba(184, 6, 6, 0.65);
+}
+.del-but:hover{
+  background-color:  rgba(184, 6, 6, 1);
+}
+
+.up-but{
+  background-color: rgba(15, 207, 255, 0.65);
+}
+.up-but:hover{
+  background-color: rgba(15, 207, 255, 1);
+}
+
+.down-but{
+  background-color: rgba(10, 201, 58, 0.65);
+}
+.down-but:hover{
+  background-color: rgba(10, 201, 58, 1);
+}
+input[type="text"]{
+  font-size: 1rem;
+  padding:10px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  color: rgba(0,0,0,1);
+}
+ol{
+  padding: 0;
+  list-style: none;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 3.14rem;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+
+}
+li .
+
+text{
+  flex:1;
+}
+.del-but,.up-but,.down-but{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+}
